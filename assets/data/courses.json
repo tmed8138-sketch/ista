@@ -1,0 +1,56 @@
+{
+    "courses": [
+        {
+            "id": "html-basics",
+            "title": "HTML5 Fondamentaux",
+            "description": "La structure du web. Apprenez les balises essentielles.",
+            "icon": "html5",
+            "modules": [
+                {
+                    "title": "Introduction",
+                    "lessons": [
+                        {
+                            "title": "C'est quoi HTML ?",
+                            "id": "html-intro",
+                            "type": "video",
+                            "videoId": "dQw4w9WgXcQ",
+                            "content": "HTML (HyperText Markup Language) est le langage standard pour créer des pages web."
+                        },
+                        {
+                            "title": "Votre première page",
+                            "id": "html-first-page",
+                            "type": "text",
+                            "content": "Pour créer une page HTML, vous avez besoin d'un fichier avec l'extension .html."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "css-mastery",
+            "title": "CSS3 Maîtrise",
+            "description": "Donnez du style à vos pages. Flexbox, Grid et animations.",
+            "icon": "css3",
+            "modules": [
+                {
+                    "title": "Bases CSS",
+                    "lessons": [
+                        {
+                            "title": "Sélecteurs",
+                            "id": "css-selectors",
+                            "type": "text",
+                            "content": "Les sélecteurs permettent de cibler les éléments HTML."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bootstrap-pro",
+            "title": "Bootstrap Pro",
+            "description": "Créez des sites responsives rapidement.",
+            "icon": "bootstrap",
+            "modules": []
+        }
+    ]
+}

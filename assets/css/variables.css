@@ -1,0 +1,40 @@
+:root {
+    /* Colors - Dark Premium Theme */
+    --hue-primary: 220; /* Deep Blue */
+    --hue-accent: 260; /* Neon Purple */
+    --hue-success: 150;
+    --hue-warning: 35;
+    
+    --bg-dark: hsl(var(--hue-primary), 30%, 8%);
+    --bg-card: hsl(var(--hue-primary), 25%, 12%);
+    --bg-card-hover: hsl(var(--hue-primary), 25%, 16%);
+    
+    --text-main: hsl(0, 0%, 95%);
+    --text-muted: hsl(var(--hue-primary), 10%, 70%);
+    
+    --accent-color: hsl(var(--hue-accent), 100%, 65%);
+    --accent-glow: hsla(var(--hue-accent), 100%, 65%, 0.4);
+    
+    --border-color: hsl(var(--hue-primary), 20%, 20%);
+    
+    /* Typography */
+    --font-main: 'Inter', system-ui, sans-serif;
+    --font-heading: 'Outfit', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    
+    /* Effects */
+    --shadow-card: 0 4px 20px rgba(0,0,0,0.4);
+    --shadow-glow: 0 0 15px var(--accent-glow);
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
